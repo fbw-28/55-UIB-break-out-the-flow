@@ -1,0 +1,55 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.halloworld {
+    width: 200px;
+    height: 200px;
+    background-color: orange;
+    margin: 0;
+    margin-top: 7px;
+    margin-right: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+     
+    
+    /* position: relative;
+    top:50%;
+    right: 50%;
+    left:calc(50% - 5px);
+    bottom: calc(50% - 7px);  */
+}
+.box1 {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index:0;
+}
+.box2 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(0, 255, 85);
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    /* z-index:1; */
+    z-index: 2;
+}
+.box3 {
+    width: 200px;
+    height: 200px;
+    background-color:rgb(0, 183, 255);
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    /* z-index:2; */
+    z-index: 1;
+}
