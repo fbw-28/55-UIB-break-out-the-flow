@@ -1,0 +1,39 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+div {
+    width: 200px;
+    height: 200px;
+}
+.halloworld {
+    background: orange;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    right: 5px;
+    top: 7px;
+}
+
+.box1 {
+    background-color: red;
+    position: absolute;
+    bottom: 0px;
+}
+
+.box2 {
+    background-color: rgb(0, 255, 85) ;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+
+.box3 {
+    background-color: rgb(0, 183, 255) ;
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    z-index: -1;
+}
