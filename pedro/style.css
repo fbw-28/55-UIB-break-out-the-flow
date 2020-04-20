@@ -1,5 +1,5 @@
 html, body {
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     height: 100%;
 }
@@ -8,8 +8,9 @@ html, body {
     position: relative;
     width: 200px;
     height: 200px;
+    margin: 0 auto;
     right: 5px;
-    margin: 7px  auto;
+    top: 7px;
     text-align: center;
     background-color: rgb(252,177,75);
 }
