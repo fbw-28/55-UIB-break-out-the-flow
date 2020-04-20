@@ -8,8 +8,8 @@ html, body {
     position: relative;
     width: 200px;
     height: 200px;
-    right: 7px;
-    margin: 0  auto;
+    right: 5px;
+    margin: 7px  auto;
     text-align: center;
     background-color: rgb(252,177,75);
 }
